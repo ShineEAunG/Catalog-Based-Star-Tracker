@@ -1,0 +1,51 @@
+# Visual Studio user/cache files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output folders
+x64/
+x86/
+Debug/
+Release/
+ARM/
+ARM64/
+build/
+out/
+
+# Visual Studio build files
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pch
+
+# IntelliSense / database
+*.ipch
+*.iobj
+*.ipdb
+*.VC.db
+*.VC.opendb
+Browse.VC.db
+
+# Generated output images
+*.png
+*.jpg
+*.jpeg
+ImgFolder/Output/
+ImgFolder/subFolder/
+
+# Optional generated metadata
+Synthetic_Star_Field_Metadata.txt
+
+# Large generated binary databases
+*.bin
