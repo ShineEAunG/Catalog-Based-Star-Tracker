@@ -21,9 +21,6 @@ Input Image → Preprocessing → Star Detection → Pyramid Matching → Reproj
 - Visual Studio / CMake
 - Hipparcos binary catalog files
 
-## How to Run
-Step-by-step command or Visual Studio steps.
-
 ## Example Result
 A C++/OpenCV catalog-based star tracker pipeline for synthetic star field generation, star detection, candidate labeling, catalog matching, and attitude estimation.
 
