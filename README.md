@@ -28,7 +28,7 @@ Step-by-step command or Visual Studio steps.
 A C++/OpenCV catalog-based star tracker pipeline for synthetic star field generation, star detection, candidate labeling, catalog matching, and attitude estimation.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ShineEAunG/Catalog-Based-Star-Tracker/main/doc/image.png" alt="Terminal output" width="70">
+  <img src="https://raw.githubusercontent.com/ShineEAunG/Catalog-Based-Star-Tracker/main/doc/image.png" alt="Terminal output" width="70%">
 </p>
 
 <p align="center">
