@@ -1,7 +1,10 @@
 # Catalog-Based Star Tracker
 
 ## Overview
-Short explanation of what this project does.
+This project is a C++/OpenCV catalog-based star tracker pipeline developed for spacecraft attitude determination. 
+It processes a star-field image, detects star centroids, converts image coordinates into camera-frame unit vectors, 
+matches detected stars with the Hipparcos star catalog using a Pyramid-based identification method, 
+verifies the solution through reprojection, and estimates spacecraft attitude using SVD / QUEST-based methods.
 
 ## Main Features
 - Star image preprocessing
@@ -16,10 +19,11 @@ Short explanation of what this project does.
 Input Image → Preprocessing → Star Detection → Pyramid Matching → Reprojection Verification → Attitude Estimation
 
 ## Requirements
-- C++
+- C++17 or later
 - OpenCV
 - Visual Studio / CMake
-- Hipparcos binary catalog files
+- Hipparcos binary catalog file
+- Hipparcos angular pair database file
 
 ## Example Result
 A C++/OpenCV catalog-based star tracker pipeline for synthetic star field generation, star detection, candidate labeling, catalog matching, and attitude estimation.
